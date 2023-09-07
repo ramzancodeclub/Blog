@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+}
+.container {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px auto auto 100px;
+}
+header {
+  background-color: rgb(247, 247, 247);
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+main {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+aside {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.mobile {
+  display: none;
+}
+.show {
+  display: block;
+}
+nav {
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  /* padding: 0 50px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  padding: 16px;
+}
+nav ul li a {
+  color: #000;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid black;
+}
+aside {
+  padding: 64px;
+  background-color: #313338;
+}
+aside h2,
+a {
+  color: #fff;
+  margin: 16px 0;
+}
+aside .comments,
+.archives {
+  margin-top: 64px;
+}
+h2 {
+  font-weight: 800;
+}
+.blog-post {
+  padding: 32px;
+}
+.blog-post h2 {
+  font-size: 2rem;
+}
+.blog-post a {
+  color: dodgerblue;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+p {
+  margin: 16px 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+h3 {
+  margin: 8px 0;
+  font-weight: 800;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto auto 100px;
+  }
+  main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  nav ul {
+    display: none;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    margin: 0 auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    height: auto;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+  }
+  nav ul li a {
+    color: #f9f9f9;
+  }
+  a.mobile {
+    display: block;
+    font-size: 32px;
+    color: #202020;
+  }
+}
