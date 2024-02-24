@@ -72,8 +72,6 @@ If you'd like to contribute to the project, follow these steps:
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
 
-Please follow our [Contribution Guidelines](CONTRIBUTING.md) for more details.
-
 ## Tests
 
 The project includes a set of tests to ensure the functionality is working as expected. To run the tests, use the following command:
