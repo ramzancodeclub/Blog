@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
     ```bash
-    git clone https://github.com/m-ramzan786/Blog.git
+    git clone https://github.com/ramzancodeclub/Blog.git
     ```
 
 2. Open the project folder in your code editor.
@@ -43,7 +43,7 @@ Explore the blog website:
 
 ## Credits
 
-- [Muhammad Ramzan](https://github.com/m-ramzan786) - Project Creator
+- [Muhammad Ramzan](https://github.com/ramzancodeclub) - Project Creator
 
 ## License
 
@@ -53,8 +53,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Badges
 
-![GitHub top language](https://img.shields.io/github/languages/top/m-ramzan786/Blog)
-![GitHub license](https://img.shields.io/github/license/m-ramzan786/Blog)
+![GitHub top language](https://img.shields.io/github/languages/top/ramzancodeclub/Blog)
+![GitHub license](https://img.shields.io/github/license/ramzancodeclub/Blog)
 
 ## Features
 
